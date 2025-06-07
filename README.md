@@ -1,7 +1,7 @@
-# Atividade RA3
+# Atividade RA3 - Resolução de Problemas Estruturados em Computação
+## Tabela Hash
 
 Alunos: Guilherme Tuchanski Rocha e Luiz Henrique Matoso
-Repositório do Código: https://github.com/tuchanski/hashing-ra3
 
 ## 1. Introdução
 
@@ -52,21 +52,25 @@ Foram gerados três conjuntos de dados com 1 milhão, 5 milhões e 20 milhões d
 O primeiro indicador de desempenho avaliado foi o custo computacional de cada função de hash.
 
 ![Tabela1](images/image5.png)
+
 <sub>_Tabela de Custo de Inserção_</sub>
 
 ##
 
 ![Gráfico1](images/image11.png)
+
 <sub>_Gráfico do Tempo de Inserção em milissegundo (ms) para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 1.000.000._</sub>
 
 ##
 
 ![Gráfico2](images/image4.png)
+
 <sub>_Gráfico do Tempo de Inserção em milissegundo (ms) para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 5.000.000._</sub>
 
 ##
 
 ![Gráfico3](images/image10.png)
+
 <sub>_Gráfico do Tempo de Inserção em milissegundo (ms) para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 20.000.000._</sub>
 
 ##
@@ -89,21 +93,25 @@ Essa comparação evidencia a importância de escolher a função de hash adequa
 O principal indicador da eficiência de uma tabela Hash é sua capacidade de minimizar colisões, o que reflete diretamente no tempo de busca.
 
 ![Tabela2](images/image7.png)
+
 <sub>_Tabela de Desempenho de Buscas_</sub>
 
 ##
 
 ![Gráfico4](images/image1.png)
+
 <sub>_Gráfico do Tempo de Busca em nanosegundos para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 1.000.000._</sub>
 
 ##
 
 ![Gráfico5](images/image3.png)
+
 <sub>_Gráfico do Tempo de Busca em nanosegundos para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 5.000.000._</sub>
 
 ##
 
 ![Gráfico6](images/image9.png)
+
 <sub>_Gráfico do Tempo de Busca em nanosegundos para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 20.000.000._</sub>
 
 ##
@@ -121,21 +129,25 @@ Principais observações:
 Esses dados mostram que a eficiência da busca está diretamente ligada à função de hash usada e ao tamanho adequado da tabela.
 
 ![Tabela3](images/image6.png)
+
 <sub>_Tabela de Número de Colisões_</sub>
 
 ##
 
 ![Gráfico7](images/image12.png)
+
 <sub>_Gráfico do Número de Colisões para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 1.000.000._</sub>
 
 ##
 
 ![Gráfico8](images/image2.png)
+
 <sub>_Gráfico do Número de Colisões para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 5.000.000._</sub>
 
 ##
 
 ![Gráfico9](images/image8.png)
+
 <sub>_Gráfico do Número de Colisões para Divisão, Multiplicação e Dobramento com Tamanho dos Dados de 20.000.000._</sub>
 
 ##
